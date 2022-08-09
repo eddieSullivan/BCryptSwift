@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BCryptSwift'
-  s.version          = '1.1'
+  s.version          = '1.1.1'
   s.summary          = 'BCryptSwift is an implementation of bcrypt written in Swift.'
+  s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,7 +39,7 @@ The `verifyPassword(matchesHash:)` class convenience function will hash the pass
   s.homepage         = 'https://github.com/felipeflorencio/BCryptSwift'
   s.license          = { :type => 'Apache 2.0 License', :file => 'LICENSE' }
   s.author           = { 'felipeflorencio' => 'felipeflorencio@me.com' }
-  s.source           = { :git => 'https://github.com/felipeflorencio/BCryptSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:eddieSullivan/BCryptSwift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/dr_nerd'
 
   s.ios.deployment_target = '9.0'
